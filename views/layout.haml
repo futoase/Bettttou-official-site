@@ -1,0 +1,16 @@
+%html
+  %head
+    %link{ rel: "stylesheet", type: "text/css", href: "css/semantic.min.css" }
+    %link{ rel: "stylesheet", type: "text/css", href: "css/main.css" }
+    %script{ type: "text/javascript", src: "//code.jquery.com/jquery-2.1.0.min.js" }
+    %script{ type: "text/javascript", src: "//maps.google.com/maps/api/js?sensor=true" }
+    %script{ type: "text/javascript", src: "javascript/semantic.min.js" }
+    %script{ type: "text/javascript", src: "javascript/gmaps.min.js" }
+    %script{ type: "text/javascript", src: "javascript/main.js" }
+
+  %body
+    %div{ class: "ui green inverted menu" }
+      %a{ class: "active item" }
+        %i{ class: "home icon" }
+        home
+    = yield

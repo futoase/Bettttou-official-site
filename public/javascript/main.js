@@ -1,8 +1,8 @@
 $(document).ready(function () {
-  var map = new GMaps({
-    div: '#map',
-    lat: 9.145,
-    lng: 39.389673
+  var BV = new $.BigVideo();
+  BV.init();
+  BV.show("images/top.mp4", {
+    ambient: true,
+    doLoop: true
   });
-  map.setZoom(6);
 });

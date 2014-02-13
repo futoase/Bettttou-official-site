@@ -1,3 +1,35 @@
-body {
-  background-image: url("/images/greyzz.png");
+html, body {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  overflow: hidden;
+  font-family: 'Open Sans Condensed';
+  font-weight: 300;
+  font-size: 1em;
+  background-color: #000;  
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 10;
+  color: #fff;
+  z-index: 999;
+}
+
+header > h1.index {
+  text-shadow: 1px 1px 1px #000; 
+}
+
+div.description {
+  top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+img.betto {
+  top: 80px;
+  opacity: 0.9;
+  margin-left: auto;
+  margin-right: auto;
 }
